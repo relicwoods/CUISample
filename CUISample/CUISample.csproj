@@ -9,6 +9,14 @@
 
   <ItemGroup>
     <PackageReference Include="McMaster.Extensions.CommandLineUtils" Version="4.0.1" />
+    <PackageReference Include="NLog" Version="5.0.1" />
+    <PackageReference Include="NLog.Schema" Version="5.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="NLog.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
